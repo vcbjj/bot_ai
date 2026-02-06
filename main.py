@@ -3,6 +3,7 @@
 import asyncio
 from telegram import Update
 from dialects_database import DialectDatabase
+from arabic_model import ArabicChatModel
 from telegram.ext import Application, MessageHandler, filters, ContextTypes
 import logging
 
